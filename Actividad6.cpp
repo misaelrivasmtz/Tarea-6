@@ -171,7 +171,8 @@ void HojaCalc::sumarFila(int fila){
        s =s->sigFil;
    }while(s->nFil != 0);
 }
-
+/*TAREA 6*/
+//FUNCION QUE REALIZA LA SUMA DE UNA COLUMNA EN ESPECÍFICO
 void HojaCalc::sumarColumna(int columna){
     nodo *s = pHE;
     do{
@@ -219,7 +220,7 @@ int main(void)
     // la mariz se imprime por filas:
     hojaCalculo.imprimirHojaElec();
     hojaCalculo.sumarFila(2);
-    hojaCalculo.sumarColumna(2);
+    hojaCalculo.sumarColumna(2); //Probando la función sumarColumnas, realizando la suma de la columna 2 :)
 
     cout << endl
          << endl;
